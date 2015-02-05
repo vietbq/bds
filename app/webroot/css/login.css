@@ -1,0 +1,28 @@
+.admin_form{
+    position: relative;
+    margin-top: 100px;
+}
+.admin_button{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login_reset, .register_reset , .change_reset{
+    margin-left: 50px;
+}
+.btn{
+    width: 100px;
+}
+.loai_nha_dat{
+    margin-left: 100px;
+}
+/*#nha_dat_cho_thue{
+    display: none;
+}*/
+#radio_nha_dat_cho_thue{
+    margin-left: 100px;
+}
+.require_notice{
+    color: red;
+}

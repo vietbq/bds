@@ -1,0 +1,17 @@
+<tr class="page-item">
+	<td class="page-item-action">
+		<span class="page-item-index"></span>
+		<button type="button" class="btn btn-success btn-sm page-item-btn-up">↑</button>
+		<button type="button" class="btn btn-success btn-sm page-item-btn-down">↓</button>
+		<button type="button" class="btn btn-primary btn-danger page-item-btn-remove">削除</button>
+	</td>
+	<td>
+	<input type="hidden" name="pages[<%= index %>][remove]" class="page-item-remove" value="0" />
+	<input type="hidden" name="pages[<%= index %>][id]" class="page-item-id" value="<%= id %>" />
+	<input type="hidden" name="pages[<%= index %>][title]" class="page-item-title" value="<%= _.escape(title) %>" />
+	<input type="hidden" name="pages[<%= index %>][content]" class="page-item-content" value="<%= _.escape(content) %>" />
+	<input type="hidden" name="pages[<%= index %>][order]" class="page-item-order" value="<%= order %>" />
+	<div class="page-item-title-edit" contenteditable="true" title="編集する]をクリック"><%= title %></div>
+		<div class="page-item-content-edit" contenteditable="true" title="編集する]をクリック"><%= content %></div>
+	</td>
+</tr>

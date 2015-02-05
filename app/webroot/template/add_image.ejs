@@ -1,0 +1,19 @@
+<?php
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+?>
+<div style="margin-bottom:30px" class="col-sm-4 col-xs-6 image-add-class">
+    <div class="media-body" >
+        <label for="image-<%= index %>">
+            <a class="btn btn-primary"><i class="glyphicon glyphicon-picture"></i> Chọn ảnh</a>
+            <input type="file"  class="form-control image-post-input-file" name="data[image]" id="image-<%= index %>" style="display: none"  />
+            <input type="hidden" name="image_post[]" class="stamp-image" value="" />
+            <br><img class="media-object img-thumbnail stamp-image-display" style="height: 150px ; width: 250px" src="" alt="">
+        </label><a class="btn del-image-post-by-user"><i class="glyphicon glyphicon-remove" style="color: red"></i></a>
+        <div class="text-danger error-image"></div>
+    </div>
+</div>

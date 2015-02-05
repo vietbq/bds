@@ -1,0 +1,22 @@
+#window {  
+    overflow:hidden;/* 必須 */  
+    position:relative;/* 必須 */  
+    width:960px;/* 画像1枚の横幅 */  
+    height:350px;/* 画像1枚の高さ */  
+    background: url(images/bg.gif);/* 任意 */  
+    border:3px solid #333;/* 任意 */  
+}  
+#slideshow  {  
+    width:1920px;/* 画像2枚分の横幅 */  
+    height:700px;/* 画像2枚分の横幅 */  
+    overflow:hidden;/* 必須 */  
+    position:relative;/* 必須 */  
+    padding:0;  
+    margin:0;  
+}  
+#slideshow li   {  
+    width:960px;/* 画像1枚の横幅 */  
+    height:350px;/* 画像1枚の高さ */  
+    float:left;/* 横並びに */  
+    display:inline;  
+}  

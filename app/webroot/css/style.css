@@ -1,0 +1,513 @@
+/* 
+    Document   : style
+    Created on : Jun 20, 2014, 10:27:58 PM
+    Author     : QuangBV
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.wrapContent{
+    min-width: 1000px;
+    margin: auto;
+    display: block;
+    min-height: 1000px;
+
+}
+ul{
+    list-style-type: none;
+}
+
+/*
+Style for header
+*/
+#header{
+    background: #FFFFFF;
+    width: 100%;
+    position: relative;
+    height: 205px;
+    margin-left: 12%;
+}
+#headerLogo{
+    width: 268px;
+    float: left;
+    text-align: center;
+    padding: 5px 0 0 0px;
+    line-height: 14px;
+}
+#headerInfo{
+    float: left;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 10px;
+}
+.headerInfo{
+    list-style-type: none;
+    text-align: right;
+}
+.slogan{
+    font-family: fantasy;
+    font-size: 50px;
+    color: darkblue;
+}
+#menuHeader{
+    margin: auto;
+    border-radius: 4px 4px 4px 4px;
+    margin-top: 5px;
+    background: #055699;
+    width: 80%;
+    clear: both;
+    height: 30px;
+    min-width: 850px;
+}
+#leftMenu{
+    float: left;
+    width: 15%;
+    height: 30px;
+    display: block;
+}
+#mainMenu{
+    width: 80%;
+    float: left;
+    background: #055699;
+    height: 100%;
+    float: left;
+    padding-left: 5px;
+    color: white;
+    position: relative;
+}
+.ihome{
+    border-right: 1px solid #20466D;
+    float: left;
+    height: 29px;
+    line-height: 29px;
+    overflow: hidden;
+}
+#mainMenu a {
+    text-decoration: none;
+}
+
+#mainMenu ul {
+    margin: 0;
+    padding: 0px;
+}
+.dropdown-navigative-menu{
+    position: relative;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+.dropdown-navigative-menu li {
+    font-weight: bold;
+    float: left;
+    background: #055699;
+    padding-left: 9px;
+    padding-right: 10px;
+    border-right: 1px solid #20466d;
+    border-left: 1px solid #4a84b5;
+}
+
+.dropdown-navigative-menu li:last-child {
+    border-right: none;
+}
+
+.dropdown-navigative-menu a:hover, .dropdown-navigative-menu a.active, ul.dropdown-navigative-menu a:active {
+    color: #ffffff;
+}
+
+.dropdown-navigative-menu li a {
+    display: block;
+    color: #ffffff;
+    line-height: 29px;
+    white-space: nowrap;
+}
+
+.dropdown-navigative-menu li.hover, .dropdown-navigative-menu li:hover, .dropdown-navigative-menu .li_selected, .dropdown-navigative-menu li.active, .dropdown-navigative-menu .nav_selected {
+    background-color: #2795f0;
+    position: relative;
+}
+
+.dropdown-navigative-menu ul {
+    width: auto;
+    min-width: 160px;
+    display: none;
+    position: absolute;
+    left: 0;
+    z-index: 10000;
+    top: 100%;
+    zoom: 1;
+}
+
+
+.dropdown-navigative-menu ul li {
+    font-weight: normal;
+    background-color: #cfe5f7;
+    border: 1px solid #ffffff;
+    border-bottom: none;
+    float: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    line-height: 15px;
+    text-align: left;
+}
+
+
+
+.dropdown-navigative-menu ul li:last-child {
+    border-bottom: 1px solid #ffffff;
+}
+
+.dropdown-navigative-menu ul li a {
+    border-right: none;
+    display: inline-block;
+    min-width: 190px;
+    color: black;
+    text-align: left;
+}
+
+.dropdown-navigative-menu ul li.hover, ul.dropdown-navigative-menu ul li:hover, ul.dropdown-navigative-menu ul .li_selected, ul.dropdown-navigative-menu ul li.active {
+    background-color: #2795f0;
+    color: White;
+}
+
+.dropdown-navigative-menu ul li img {
+    padding-top: 9px;
+    float: right;
+}
+
+.dropdown-navigative-menu ul ul {
+    top: 0;
+}
+
+.dropdown-navigative-menu li:hover > ul {
+    display: block;
+}
+
+.dropdown-navigative-menu li > ul > li:hover > ul {
+    display: block !important;
+    left: 100%;
+    top: 0;
+}
+
+.dropdown-navigative-menu a.indent {
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+#searchMenu{
+    width: 70%;
+    margin: auto;
+    height: 70px;
+    padding-left: 5%;
+    padding-top: 20px;
+}
+#searchContent{
+    border-radius: 4px 4px 4px 4px;
+    width: 50%;
+    padding-left: 10px;
+    margin-right: 3%;
+}
+#searchType{
+    border-radius: 4px 4px 4px 4px;
+    width: 20%;
+    padding-left: 10px;
+    height: 27px;
+    margin-right: 3%;
+}
+.searchSubmit{
+    background: #055699;
+    color: white;
+}
+
+/**
+
+Main content
+*/
+#mainContent{
+    padding-bottom: 20px;
+    width: 100%;
+    margin: auto;
+    display: block;
+    position: relative;
+    height: 1100px;
+    min-width: 1080px;
+}
+
+.topMainContent{
+    padding-left: 10%;
+    display: block;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    height: 470px;
+    min-width: 1080px;
+}
+
+/*
+##########################################
+left search box
+*/
+.leftSearchBox{
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 25%;
+    min-width: 300px;
+    height: 470px;
+    border : 1px solid #99CCFF;
+    display: block;
+/*    margin-left: 10%;*/
+    margin-bottom: 30px;
+    float: left;
+}
+.searchHeader{
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: #055699;
+    width: 100%;
+    display: block;
+    height: 48px;
+    color: white;
+}
+.searchLogo{
+    display: block;
+    background: url(../img/home/search.png) no-repeat;
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+.searchLabel{
+    float: left;
+    position: relative;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.searchBoxForm{
+    position: relative;
+    padding: 20px 20px 20px 20px;
+
+}
+.radio_class{
+    display: inline-block;
+}
+#radio_nha_dat_ban{
+    float: left;
+    margin-right: 5px;
+}
+#radio_nha_dat_cho_thue{
+    float: left;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+#state , #city , .gia_tien , .dien_tich{
+    float: right;
+    margin-right: 2px;
+}
+#quan_huyen{
+    position: relative;
+    margin-top: 30px;
+}
+.gia_tien, .dien_tich{
+    width: 70% !important ;
+}
+#gia_tien_ban, #gia_tien_thue{
+    margin-top: 40px;
+    position: relative;
+}
+.loai_nha_dat{
+    width: 260px !important;
+    float: right;
+    margin-right: 2px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#searchSubmit{
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    margin-top: 0px;
+    background:#055699;
+    color: white;
+}
+.custom-dropdown{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 2.5em; /* accommodate with the pseudo elements for the dropdown arrow */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;    
+    font-size: 1.1em;
+}
+.custom-dropdown::before,
+.custom-dropdown::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+}
+
+.custom-dropdown::after { /*  Custom dropdown arrow */
+    content: "\25BC";
+    height: 1em;
+    font-size: .625em;
+    line-height: 1.5;
+    right: 1.2em;
+    top: 50%; margin-top: -.5em;
+}
+
+.custom-dropdown::before { /*  Custom dropdown arrow cover */
+    width: 2em;
+    right: 0; top: 0; bottom: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+/*
+Recommend post
+*/
+.recommendPost{
+    min-width: 400px;
+    margin-left: 2%;
+    display: block;
+    width: 65%;
+    height: 400px;
+    position: relative;
+    float: left;
+    padding: 10px 20px 20px 20px;
+}
+.recommendPostTitle{
+    padding-top: 5px;
+    display: block;
+    width:90%;
+    height: 28px;
+    border-bottom: 3px solid #055699;
+    font-weight: bold;
+}
+.recommendPostContent{
+    margin-top: 30px;
+    display: block;
+    width: 90%;
+    position: relative;
+    min-width: 450px;
+    line-height: 21px;
+}
+.p-main{
+    border-bottom: 1px solid #055699;
+    position: relative;
+    margin-top: 33px;
+}
+.p-line{
+    line-height: 25px;
+}
+div.left{
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+}
+div.right{
+    display: inline-block;
+    width: 80px;
+    float: right;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.bottomMainContent{
+    width: 100%;
+    display: block;
+    margin:auto;
+    float: left;
+    height: 500px;
+    padding-left: 10%;
+    position: relative;
+}
+
+.left_post{
+    position: relative;
+    display: block;
+/*    margin-left: 5%;*/
+    width: 43%;
+    height: 500px;
+    float: left;
+    padding: 20px 30px 20px 0px;
+    /*    border: 1px solid #0099FF;*/
+}
+
+.right_post{
+    position: relative;
+    display: block;
+/*    margin-right: 5%;*/
+    margin-left: 4%;
+    width: 43%;
+    height: 500px;
+    float: left;
+    padding: 20px 30px 20px 10px;
+    /*    border: 1px solid #0099FF;*/
+}
+/*
+Nha dat ban new
+*/
+
+/*
+Nha dat cho thue new
+*/
+
+
+
+
+/**
+
+Trang liên hệ
+
+*/
+.pageLienHe{
+    width: 50%;
+    min-width: 300px;
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+.require_notice{
+    color: red;
+}
+.error{
+    color: red;
+}
+.noticePage{
+    display: block;
+    position: relative;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#footer{
+
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #0099FF;
+    text-align: center;
+    /*    background: #ededed;*/
+    color: #555754;
+
+}
+
+
+
+

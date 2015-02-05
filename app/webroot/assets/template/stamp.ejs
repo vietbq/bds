@@ -1,0 +1,30 @@
+<tr class="stamp">
+	<td class="stamp-action">
+		<button type="button" class="btn btn-success btn-sm stamp-btn-up">↑</button>
+		<button type="button" class="btn btn-success btn-sm stamp-btn-down">↓</button>
+		<button type="button" class="btn btn-primary btn-danger stamp-btn-remove">削除</button>
+	</td>
+	<td>
+	<input type="hidden" name="stamps[<%= index %>][remove]" class="stamp-remove" value="0" />
+	<input type="hidden" name="stamps[<%= index %>][stamp_id]" class="stamp-id" value="<%= stamp_id %>" />
+		<input type="hidden" name="stamps[<%= index %>][image]" class="stamp-image" value="<%= image %>" />
+		<input type="hidden" name="stamps[<%= index %>][display_order]" class="stamp-order" value="" />
+		<div class="media" style="margin-top: 0;">
+	  	<div class="pull-left">
+	  		<% if (image_url) { %>
+	    		<img class="media-object img-thumbnail stamp-image-display" src="<%= image_url %>" alt="">
+	    	<% } else { %>
+	    		<img class="media-object img-thumbnail stamp-image-display" src="assets/img/blank.gif" alt="">
+	    	<% } %>
+	  	</div>
+	  	<div class="media-body">
+		  	<label for="image-<%= index %>">
+		    	<a class="btn btn-default">パソコンから画像を選択</a>
+		    	<input type="file" accept="image/*" class="form-control stamp-input-file" name="data[image]" id="image-<%= index %>" style="display: none;" />
+		    </label>
+		    <span class="help-block">Accept file type GIF, JPG, PNG.</span>
+		    <div class="text-danger error-image"></div>
+	  	</div>
+	</div>
+	</td>
+</tr>

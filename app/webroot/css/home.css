@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014/04/08, 9:26:44
+    Author     : systena
+*/
+
+
+#header{
+    background-color: #99FF33;
+    height: 256px;
+    width: 100%;
+    display: block;
+}
+.container{
+    background: lavender;
+    min-width: 500px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+#bottom{
+    width: 100%;
+    background-color: #404040;
+    height: 80px;
+    display: block;
+}
+#logo{
+    margin-left: 100px;
+    float: left;
+    background-image: url(../img/home/free-logo.png) ;
+    background-repeat: no-repeat;
+    width: 256px;
+    display: block;
+    height: 100%;
+}
+.menu-right{
+    float: left;
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 60%;
+}
+.option{
+    width: 100%;
+    height: 70%;
+    display: block;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 20px;
+}
+ul.inline-menu{
+    display: inline-block;
+    height: 50px;
+    width: 500px;
+    position: relative;
+/*    background-color: #0066FF;*/
+}
+ul.inline-menu li{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}

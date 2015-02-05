@@ -1,0 +1,49 @@
+<tr class="profile">
+	<td class="profile-action">
+		<button type="button" class="btn btn-success btn-sm profile-btn-up">↑</button>
+		<button type="button" class="btn btn-success btn-sm profile-btn-down">↓</button>
+		<button type="button" class="btn btn-primary btn-danger profile-btn-remove">削除</button>
+	</td>
+	<td>
+	<input type="hidden" name="profiles[<%= index %>][remove]" class="profile-remove" value="0" />
+	<input type="hidden" name="profiles[<%= index %>][profile_id]" class="profile-id" value="<%= profile_id %>" />
+		<input type="hidden" name="profiles[<%= index %>][profile_display_order]" class="profile-display-order" />
+		<div class="col-md-3">
+			<div class="form-group">
+				<input type="text" class="form-control profile_name" name="profiles[<%= index %>][profile_name]" value="<%= _.escape(profile_name) %>" />
+			</div>
+		</div>
+		<div class="col-md-9">
+			<div class="form-group">
+				<label class="col-md-12"><input type="radio" name="profiles[<%= index %>][is_input]" value="1" <% if (is_input == 1) { %> checked="checked" <% } %> style="margin-right: 10px; margin-top: 10px;" />入力式</label>
+			</div>
+			<div class="form-group">
+			<label class="col-md-2">
+				<input type="radio" name="profiles[<%= index %>][is_input]" value="0" <% if (is_input == 0) { %> checked="checked" <% } %> style="margin-right: 10px; margin-top: 10px;" />選択式
+			</label>
+				<div class="col-md-10 profile-item-list" data-profile-index="<%= index %>">
+					<% if ( ProfileItem.length > 0 ) { %>
+						<% for(i = 0; i < ProfileItem.length; i++) { %>
+							<div class="profile-item">
+								<input type="hidden" name="profiles[<%= index %>][items][<%= i %>][remove]" class="profile-item-remove" value="0" />
+								<input type="hidden" name="profiles[<%= index %>][items][<%= i %>][profile_item_id]" class="profile-item-id" value="<%= ProfileItem[i]['profile_item_id'] %>" />
+								<input type="hidden" name="profiles[<%= index %>][items][<%= i %>][profile_item_display_order]" class="profile-item-display-order" />
+			  					<input type="text" name="profiles[<%= index %>][items][<%= i %>][profile_item_name]" class="form-control input-sm profile-item-name" value="<%= _.escape(ProfileItem[i]['profile_item_name']) %>" />
+								<span class="profile-item-action"><i class="halflings remove profile-item-remove"></i></span>
+								<div class="clearfix"></div>
+							</div>
+						<% } %>
+					<% } %>
+					<div class="profile-item">
+						<input type="hidden" name="profiles[<%= index %>][items][<%= ProfileItem.length %>][remove]" class="profile-item-remove" value="0" />
+						<input type="hidden" name="profiles[<%= index %>][items][<%= ProfileItem.length %>][profile_item_id]" class="profile-item-id" value="0" />
+						<input type="hidden" name="profiles[<%= index %>][items][<%= ProfileItem.length %>][profile_item_display_order]" class="profile-item-display-order" />
+			  			<input type="text"   name="profiles[<%= index %>][items][<%= ProfileItem.length %>][profile_item_name]" class="form-control input-sm profile-item-name" value="" />
+						<span class="profile-item-action"><i class="halflings plus profile-item-add"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</td>
+</tr>

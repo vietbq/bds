@@ -1,0 +1,22 @@
+<tr class="vip">
+	<% if (index == 0) { %>
+		<td rowspan="0" style="width: 200px;">
+			<label><input type="checkbox" name="setting[vip_active]" style="margin-right: 10px;" <% if(vip_active) { %> checked="checked" <% } %> />使用する</label>
+			<button type="button" class="btn btn-primary btn-add-vip-plan">加える</button>
+		</td>
+	<% } %>
+	<td style="width: 100px;" class="text-center">
+		<input type="text" class="form-control input-sm" name="setting[vip][<%= index %>][plan_name]" value="<%= _.escape(plan_name) %>" />
+	</td>
+	<td>
+		<div class="form-group">
+			<input type="hidden" name="setting[vip][<%= index %>][id]" value="<%= id %>" />
+			<label><input type="checkbox" name="setting[vip][<%= index %>][active]" style="margin-right: 10px;" <% if(active=="1") { %> checked="checked" <% } %> />名称</label>
+			<input type="text" class="form-control input-setting-number input-sm" name="setting[vip][<%= index %>][plan_description]" style="width: 200px;" value="<%= _.escape(plan_description) %>" />
+			<input type="number" class="form-control input-setting-number input-sm" name="setting[vip][<%= index %>][using_days]" value="<%= using_days %>" />
+			<label>日</label>
+			<input type="number" class="form-control input-setting-number input-sm" name="setting[vip][<%= index %>][fee]" value="<%= fee %>" />
+			<label>円</label>
+		</div>
+	</td>
+</tr>
