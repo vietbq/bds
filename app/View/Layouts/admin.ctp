@@ -105,6 +105,8 @@
         <script src="assets/js/core.min.js"></script>
         <script src="assets/js/customs.js"></script>
         <script src="ckeditor/ckeditor.js"></script>
+        <script src="ckfinder/ckfinder.js"></script>
+        
         <!--<script src="//cdn.ckeditor.com/4.4.6/standard/ckeditor.js"></script>-->
         <?php echo $this->Html->script(array( 'jquery.validate.min', 'jquery.elastic.source', 'select-option')); ?>
     </body>

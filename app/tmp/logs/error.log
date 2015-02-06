@@ -27217,3 +27217,265 @@ Request URL: /bds/ckeditor/sample.js
 Stack Trace:
 #0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-02-05 13:39:32 Error: [MissingControllerException] Controller class CkeditorController could not be found.
+Exception Attributes: array (
+  'class' => 'CkeditorController',
+  'plugin' => NULL,
+)
+Request URL: /bds/ckeditor/sample.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 13:39:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /bds/js/town-option.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:14:13 Error: [MissingActionException] Action AdminNewsController::ckfinder() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminNewsController',
+  'action' => 'ckfinder',
+)
+Request URL: /bds/adminnews/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images&CKEditor=data%5BNews%5D%5Bcontent%5D&CKEditorFuncNum=1&langCode=vi
+Stack Trace:
+#0 C:\xampp\htdocs\bds\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\bds\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AdminNewsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-05 14:14:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /bds/js/town-option.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:14:13 Error: [MissingControllerException] Controller class CkeditorController could not be found.
+Exception Attributes: array (
+  'class' => 'CkeditorController',
+  'plugin' => NULL,
+)
+Request URL: /bds/ckeditor/sample.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:15:12 Error: [MissingActionException] Action AdminNewsController::ckfinder() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminNewsController',
+  'action' => 'ckfinder',
+)
+Request URL: /bds/adminnews/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images&CKEditor=data%5BNews%5D%5Bcontent%5D&CKEditorFuncNum=1&langCode=vi
+Stack Trace:
+#0 C:\xampp\htdocs\bds\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\bds\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AdminNewsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-05 14:15:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /bds/js/town-option.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:15:12 Error: [MissingControllerException] Controller class CkeditorController could not be found.
+Exception Attributes: array (
+  'class' => 'CkeditorController',
+  'plugin' => NULL,
+)
+Request URL: /bds/ckeditor/sample.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:16:11 Error: [MissingActionException] Action AdminNewsController::ckfinder() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminNewsController',
+  'action' => 'ckfinder',
+)
+Request URL: /bds/adminnews/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images&CKEditor=data%5BNews%5D%5Bcontent%5D&CKEditorFuncNum=1&langCode=vi
+Stack Trace:
+#0 C:\xampp\htdocs\bds\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\bds\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AdminNewsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-05 14:16:11 Error: [MissingControllerException] Controller class CkeditorController could not be found.
+Exception Attributes: array (
+  'class' => 'CkeditorController',
+  'plugin' => NULL,
+)
+Request URL: /bds/ckeditor/sample.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:16:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /bds/js/town-option.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:16:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /bds/js/town-option.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:16:12 Error: [MissingControllerException] Controller class CkeditorController could not be found.
+Exception Attributes: array (
+  'class' => 'CkeditorController',
+  'plugin' => NULL,
+)
+Request URL: /bds/ckeditor/sample.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:16:12 Error: [MissingControllerException] Controller class CkeditorController could not be found.
+Exception Attributes: array (
+  'class' => 'CkeditorController',
+  'plugin' => NULL,
+)
+Request URL: /bds/ckeditor/sample.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:17:34 Error: [MissingActionException] Action AdminNewsController::ckfinder() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminNewsController',
+  'action' => 'ckfinder',
+)
+Request URL: /bds/adminnews/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images&CKEditor=data%5BNews%5D%5Bcontent%5D&CKEditorFuncNum=1&langCode=vi
+Stack Trace:
+#0 C:\xampp\htdocs\bds\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\bds\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AdminNewsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-05 14:17:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /bds/js/town-option.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:17:35 Error: [MissingControllerException] Controller class CkeditorController could not be found.
+Exception Attributes: array (
+  'class' => 'CkeditorController',
+  'plugin' => NULL,
+)
+Request URL: /bds/ckeditor/sample.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:17:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /bds/js/town-option.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:17:35 Error: [MissingControllerException] Controller class CkeditorController could not be found.
+Exception Attributes: array (
+  'class' => 'CkeditorController',
+  'plugin' => NULL,
+)
+Request URL: /bds/ckeditor/sample.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:17:35 Error: [MissingControllerException] Controller class CkeditorController could not be found.
+Exception Attributes: array (
+  'class' => 'CkeditorController',
+  'plugin' => NULL,
+)
+Request URL: /bds/ckeditor/sample.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:48:53 Error: [MissingActionException] Action AdminNewsController::bds() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminNewsController',
+  'action' => 'bds',
+)
+Request URL: /bds/adminnews/bds/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images&CKEditor=data%5BNews%5D%5Bcontent%5D&CKEditorFuncNum=1&langCode=vi
+Stack Trace:
+#0 C:\xampp\htdocs\bds\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\bds\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AdminNewsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-05 14:48:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /bds/js/town-option.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:48:53 Error: [MissingControllerException] Controller class CkeditorController could not be found.
+Exception Attributes: array (
+  'class' => 'CkeditorController',
+  'plugin' => NULL,
+)
+Request URL: /bds/ckeditor/sample.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:48:53 Error: [MissingControllerException] Controller class CkeditorController could not be found.
+Exception Attributes: array (
+  'class' => 'CkeditorController',
+  'plugin' => NULL,
+)
+Request URL: /bds/ckeditor/sample.js
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:58:19 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /bds/uploads/images/images/IMG_0199.JPG
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:58:25 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /bds/uploads/images/images/IMG_0199.JPG
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:58:28 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /bds/uploads/images/images/IMG_0199.JPG
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-05 14:58:56 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /bds/uploads/images/images/IMG_0199(1).JPG
+Stack Trace:
+#0 C:\xampp\htdocs\bds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
