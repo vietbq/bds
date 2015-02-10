@@ -1,6 +1,6 @@
 # User specific & automatically generated files #
 #################################################
-
+/app/webroot/uploads/
 # OS generated files #
 ######################
 .DS_Store

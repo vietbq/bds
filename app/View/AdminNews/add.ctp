@@ -28,8 +28,23 @@
                 <input class="form-control" name="data[News][title]" placeholder="Nhập tiêu đề..." required>
             </div>
         </div>
+        <div>
+            <label class="col-sm-12">Ảnh bài viết</label>
+            <div class="col-sm-4 col-xs-6">
+                <div class="media-body" >
+                    <label for="image-01">
+                        <a class="btn btn-primary" style="margin-bottom: 20px"><b>Tải ảnh lên</b></a>
+                        <input type="file"  class="form-control" name="image" id="image-01" style="display: none" onchange='readURL(this)' />
+                        <input type="hidden" name="data[News][thumbnails]" class="stamp-image" value="" />
+                        <br><img class="media-object img-thumbnail" id="image-preview" style="height: 150px ; width: 250px" src="" alt="">
+                    </label>
+                    <div class="text-danger error-image"></div>
+                </div>
+            </div>           
+        </div>
+
         <div class="form-group">
-            <label class="col-sm-12 " >Tiêu đề</label>
+            <label class="col-sm-12 " >Nội dung đầu bài viết</label>
             <div class="col-sm-12">
                 <textarea class="form-control" name="data[News][description]" placeholder="Nhập nội dung miêu tả ngắn gọn..." required></textarea>
             </div>
@@ -57,7 +72,7 @@
 </div>
 
 <script>
-$(document).ready(function() {
-     populateTypeNews('type_news_id', 'type_item_news_id');
-});
+    $(document).ready(function() {
+        populateTypeNews('type_news_id', 'type_item_news_id');
+    });
 </script>

@@ -13,6 +13,7 @@ class AdminNewsController extends AppController {
 
     public $name = 'AdminNews';
     public $uses = array('News');
+    public $components = array('Session', 'Upload');
 
     public function index() {
         
@@ -32,6 +33,25 @@ class AdminNewsController extends AppController {
             if ($data['News']['type_item_id'] == -1) {
                 $this->Session->setFlash(GlobalVar::get_html_error("Thêm tin tức thất bại"));
                 $this->redirect('adminnews/add');
+            }
+            $image = $this->request->data('image');
+            if ($image ) {
+                $upload_config = array(
+                    'file' => $image,
+                    'path' => Configure::read('image_dir'),
+                    'name' => null
+                );
+                $file_name = $this->Upload->copy($upload_config);
+                if ($file_name) {
+                    $data['News']['thumbnails'] = Configure::read('image_url') . $file_name;
+                }else{
+                    var_dump('2');
+                    die;
+                }
+            } else {
+                $data['News']['thumbnails'] = '';
+                var_dump('1');
+                die;
             }
             if ($this->News->save($data)) {
                 $this->Session->setFlash(GlobalVar::get_html_success("Thêm tin tức thành công"));

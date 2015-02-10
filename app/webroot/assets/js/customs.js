@@ -17,7 +17,7 @@ $(document).ready(function() {
     $("#description_area").elastic();
 
     populateCities('city', 'state');
-   
+
     //validate form
     $(".create_post_form").validate({
         // Specify the validation rules
@@ -205,3 +205,18 @@ $("#frm-createNewPost").on('change', "select#type_bat_dong_san", function() {
         console.log('fail');
     });
 });
+function readURL(input) {
+    if (input.files && input.files[0]) {
+        if (input.files[0].size < 1000000) {
+            var reader = new FileReader();
+
+            reader.onload = function(e) {
+                $('#image-preview').attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        } else {
+            alert('The file size is too large !');
+        }
+    }
+}
